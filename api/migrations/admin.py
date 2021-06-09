@@ -6,8 +6,8 @@ admin_data = {
     "lastname": "Admin0"
 }
 user_data = {
-        "email": "admin0@gobi.com",
-        "password": "gobigobi",
+        "email": "admin0@exemple.com",
+        "password": "adminadmin",
         "telephone": "+22962121212",
         "role_id": 1
     }
