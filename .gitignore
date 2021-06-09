@@ -1,7 +1,2 @@
 env/
 venv/
-database.db
-*.pyc
-__pycache__
-collection.json
-collection_v2.json

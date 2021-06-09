@@ -7,4 +7,5 @@ pip==21.1.2
 flask2postman==1.4.4
 SQLAlchemy-serializer==1.4.1
 flask-swagger==0.2.14
-flask_swagger_ui==0.2.14
+flask_swagger_ui==3.36.0
+jwt==1.2.0

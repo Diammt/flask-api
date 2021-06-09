@@ -2,7 +2,7 @@ from sqlalchemy.orm import defaultload
 from .database import db
 from werkzeug.security import generate_password_hash, check_password_hash
 import jwt
-from gobi.start import app
+from ..start import app
 import time
 
 class User(db.Model):

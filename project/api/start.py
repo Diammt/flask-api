@@ -1,7 +1,8 @@
-from flask import Flask, request, abort, redirect, url_for, jsonify, make_response, g
+from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_swagger import swagger
 from flask_swagger_ui import get_swaggerui_blueprint
+
 app = Flask(__name__)
 app.config.from_object('config')
 
