@@ -1,0 +1,10 @@
+flask==2.0.1
+requests
+flask_sqlalchemy==2.5.1
+dateparser==1.0.0
+pymysql==1.0.2
+pip==21.1.2
+flask2postman==1.4.4
+SQLAlchemy-serializer==1.4.1
+flask-swagger==0.2.14
+flask_swagger_ui==0.2.14

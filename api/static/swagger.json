@@ -1,0 +1,83 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "0.0.0",
+        "title": "Cool product name"
+    },
+    "paths": {
+        "/output-value": {
+            "post": {
+                "summary": "Output value rate",
+                "description": "",
+                "responses": {
+                    "201": {
+                        "description": "Output value"
+                    }
+                },
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "schema": {
+                            "required": [
+                                "from_plateform",
+                                "to_plateform",
+                                "from_amount"
+                            ],
+                            "properties": {
+                                "from_plateform": {
+                                    "type": "string",
+                                    "description": "the plateform origin(PAYYER_USD)"
+                                },
+                                "to_plateform": {
+                                    "type": "string",
+                                    "description": "the plateform origin(PAYYER_USD)"
+                                },
+                                "from_amount": {
+                                    "type": "string",
+                                    "description": "the plateform origin amount"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "tags": [
+                    "output-value"
+                ]
+            }
+        },
+        "/plateform_money/{plateform_money}/balance": {
+            "get": {
+                "summary": "get plateform balance",
+                "description": "",
+                "responses": {
+                    "201": {
+                        "description": "get plateform balance"
+                    }
+                },
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "schema": {
+                            "required": [
+                                "plateform_money"
+                            ],
+                            "properties": {
+                                "plateform_money": {
+                                    "type": "string",
+                                    "default": "PAYEER_USD",
+                                    "description": "the plateform_money name"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "tags": [
+                    "get-plateform-balance"
+                ]
+            }
+        }
+    },
+    "definitions": {}
+}
