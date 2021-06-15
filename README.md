@@ -6,7 +6,7 @@ All dependencies are in **requirements.txt** file.
 ```python
 pip install -r requirements.txt
 ```
-We recommande you to work in [virtual environment](https://openclassrooms.com/fr/courses/4425111-perfectionnez-vous-en-python/4463278-travaillez-dans-un-environnement-virtuel)
+We recommend you to work in [virtual environment](https://openclassrooms.com/fr/courses/4425111-perfectionnez-vous-en-python/4463278-travaillez-dans-un-environnement-virtuel)
 
 ## Usage
 * For SQLite3
